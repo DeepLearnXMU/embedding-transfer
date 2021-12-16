@@ -58,8 +58,14 @@
 1. Preprocess upstream and downstream data (refer to [Fairseq](https://github.com/pytorch/fairseq) for details). Binarized data and vocabularies will be stored in `data-bin`.
 
     Note: Sentence should be cutted by WordPiece, I suggest the [bert-vocab-builder](https://github.com/kwonmha/bert-vocab-builder) for building the vocabulary for downstream tasks.
+    
+2. Get the mapping between upstream and downstream vocabulary.
 
-2. Generate unseen tokens and finetune the downstream model with downstream vocabulary.
+    `python get_map_index.py`
+
+    Note: please change the data name in `get_map_index.py`
+
+3. Generate unseen tokens and finetune the downstream model with downstream vocabulary.
 
     `pip install path_to_bert_poattention`
 
