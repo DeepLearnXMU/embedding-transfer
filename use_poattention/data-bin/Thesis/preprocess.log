@@ -1,0 +1,14 @@
+Namespace(align_suffix=None, alignfile=None, all_gather_list_size=16384, bf16=False, bpe=None, checkpoint_shard_count=1, checkpoint_suffix='', cpu=False, criterion='cross_entropy', dataset_impl='mmap', destdir='data-bin/Thesis', empty_cache_freq=0, fp16=False, fp16_init_scale=128, fp16_no_flatten_grads=False, fp16_scale_tolerance=0.0, fp16_scale_window=None, joined_dictionary=False, log_format=None, log_interval=100, lr_scheduler='fixed', memory_efficient_bf16=False, memory_efficient_fp16=False, min_loss_scale=0.0001, model_parallel_size=1, no_progress_bar=False, nwordssrc=-1, nwordstgt=-1, only_source=False, optimizer=None, padding_factor=8, profile=False, quantization_config_path=None, scoring='bleu', seed=1, source_lang='en', srcdict=None, target_lang='ch', task='translation', tensorboard_logdir=None, testpref='examples/translation/Thesis/test', tgtdict=None, threshold_loss_scale=None, thresholdsrc=0, thresholdtgt=0, tokenizer=None, tpu=False, trainpref='examples/translation/Thesis/train', user_dir=None, validpref='examples/translation/Thesis/valid', workers=20)
+[en] Dictionary: 23440 types
+[en] examples/translation/Thesis/train.en: 214662 sents, 8444753 tokens, 0.0% replaced by <unk>
+[en] Dictionary: 23440 types
+[en] examples/translation/Thesis/valid.en: 710 sents, 28717 tokens, 0.0% replaced by <unk>
+[en] Dictionary: 23440 types
+[en] examples/translation/Thesis/test.en: 625 sents, 19437 tokens, 0.0154% replaced by <unk>
+[ch] Dictionary: 31784 types
+[ch] examples/translation/Thesis/train.ch: 214662 sents, 7787920 tokens, 0.0% replaced by <unk>
+[ch] Dictionary: 31784 types
+[ch] examples/translation/Thesis/valid.ch: 710 sents, 26801 tokens, 0.056% replaced by <unk>
+[ch] Dictionary: 31784 types
+[ch] examples/translation/Thesis/test.ch: 625 sents, 17613 tokens, 0.017% replaced by <unk>
+Wrote preprocessed data to data-bin/Thesis

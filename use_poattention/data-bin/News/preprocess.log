@@ -1,0 +1,15 @@
+Namespace(align_suffix=None, alignfile=None, all_gather_list_size=16384, bf16=False, bpe=None, checkpoint_shard_count=1, checkpoint_suffix='', cpu=False, criterion='cross_entropy', dataset_impl='mmap', destdir='data-bin/News', empty_cache_freq=0, fp16=False, fp16_init_scale=128, fp16_no_flatten_grads=False, fp16_scale_tolerance=0.0, fp16_scale_window=None, joined_dictionary=False, log_format=None, log_interval=100, lr_scheduler='fixed', memory_efficient_bf16=False, memory_efficient_fp16=False, min_loss_scale=0.0001, model_parallel_size=1, no_progress_bar=False, nwordssrc=-1, nwordstgt=-1, only_source=False, optimizer=None, padding_factor=8, profile=False, quantization_config_path=None, scoring='bleu', seed=1, source_lang='de', srcdict=None, target_lang='en', task='translation', tensorboard_logdir=None, testpref='examples/translation/News/test', tgtdict=None, threshold_loss_scale=None, thresholdsrc=0, thresholdtgt=0, tokenizer=None, tpu=False, trainpref='examples/translation/News/train', user_dir=None, validpref='examples/translation/News/valid', workers=20)
+Namespace(align_suffix=None, alignfile=None, all_gather_list_size=16384, bf16=False, bpe=None, checkpoint_shard_count=1, checkpoint_suffix='', cpu=False, criterion='cross_entropy', dataset_impl='mmap', destdir='data-bin/News', empty_cache_freq=0, fp16=False, fp16_init_scale=128, fp16_no_flatten_grads=False, fp16_scale_tolerance=0.0, fp16_scale_window=None, joined_dictionary=False, log_format=None, log_interval=100, lr_scheduler='fixed', memory_efficient_bf16=False, memory_efficient_fp16=False, min_loss_scale=0.0001, model_parallel_size=1, no_progress_bar=False, nwordssrc=-1, nwordstgt=-1, only_source=False, optimizer=None, padding_factor=8, profile=False, quantization_config_path=None, scoring='bleu', seed=1, source_lang='en', srcdict=None, target_lang='ch', task='translation', tensorboard_logdir=None, testpref='examples/translation/News/test', tgtdict=None, threshold_loss_scale=None, thresholdsrc=0, thresholdtgt=0, tokenizer=None, tpu=False, trainpref='examples/translation/News/train', user_dir=None, validpref='examples/translation/News/valid', workers=20)
+[en] Dictionary: 20992 types
+[en] examples/translation/News/train.en: 414927 sents, 13702152 tokens, 0.0% replaced by <unk>
+[en] Dictionary: 20992 types
+[en] examples/translation/News/valid.en: 1396 sents, 45332 tokens, 0.0265% replaced by <unk>
+[en] Dictionary: 20992 types
+[en] examples/translation/News/test.en: 1500 sents, 41856 tokens, 0.00239% replaced by <unk>
+[ch] Dictionary: 33504 types
+[ch] examples/translation/News/train.ch: 414927 sents, 13433210 tokens, 0.0% replaced by <unk>
+[ch] Dictionary: 33504 types
+[ch] examples/translation/News/valid.ch: 1396 sents, 44997 tokens, 0.0111% replaced by <unk>
+[ch] Dictionary: 33504 types
+[ch] examples/translation/News/test.ch: 1500 sents, 41803 tokens, 0.00957% replaced by <unk>
+Wrote preprocessed data to data-bin/News
