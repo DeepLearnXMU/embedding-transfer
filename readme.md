@@ -20,7 +20,7 @@
 
     `pip install .; bash train.sh`
 
-4. Stop training when model tend to coverage.
+4. Stop training when model tends to coverage.
 
 ### `use_poattention`
 1. Preprocess upstream and downstream data (refer to [Fairseq](https://github.com/pytorch/fairseq) for details). Binarized data and vocabularies will be stored in `data-bin`
